@@ -1,0 +1,109 @@
+import styled from 'styled-components'
+import { Link as LinkR } from 'react-router-dom'
+
+export const InfoContainer = styled.div `
+justify-content: center;
+    align-items: center;
+    display: grid;
+    position: relative;
+    @media screen and (max-width: 768px) {
+        padding: 100px 0;
+    }
+`
+
+export const InfoWrapper = styled.div `
+
+    align-items: start;
+    position: relative;    
+    display: grid;
+    z-index: 1;
+   
+    
+`
+
+export const InfoRow = styled.div `
+    display: grid;
+    justify-items: center;
+    height: 600px;
+    width: 100%;
+    
+    grid-template-areas: ${({imgStart}) => (imgStart ? `'col1 col2'` : `'col2 col1'`)};
+    
+
+    @media screen and (max-width: 768px){
+        grid-template-areas: ${({imgStart}) => (imgStart ? `'col1''col2'` : `'col1 col1' 'col2 col2'`)};
+    }
+`
+
+export const Column1 = styled.div `
+    grid-area: col1;
+    width: 30%;
+
+`
+
+export const Column2 = styled.div `
+    grid-area: col2;
+    width: 70%;
+`
+
+export const TextWrapper = styled.div `
+
+`
+
+export const Heading = styled.h1 `
+font-size: 48px;
+line-height: 1.1;
+font-weight: 600;
+color: white;
+z-index: 3;
+
+@media screen and (max-width: 480px) {
+    font-size: 32px;
+}
+`
+
+export const Subtitle = styled.p `
+margin-bottom: 35px;
+font-size: 18px;
+line-height: 24px;
+color: white;
+`
+
+export const BtnWrap = styled.div `
+display: flex;
+justify-content: flex-start;
+
+`
+export const BtnLink = styled(LinkR)`
+background: none;
+color: white;
+outline: none;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+text-decoration: none;
+/* Second Nav */
+
+&:hover {
+	transition: all 0.2s ease-in-out;
+	color: #808080;
+}
+`
+
+export const ImgWrap = styled.div `
+height: 600px;
+overflow: hidden;
+width: 100%;
+padding-bottom: 26.25%;
+position: relative;
+
+    // &:hover {
+    //     transform: scale(1.25);
+    //     transition: all 0.2s ease-in-out;
+    //     cursor: pointer;
+    // }
+`
+
+export const Img = styled.img `
+
+
+`
