@@ -15,7 +15,11 @@ padding-left: 15px;
 margin-right: auto;
 margin-left: auto;
 width: 970px;
-    
+margin-top: 150px;
+@media-screen and (max-width: 1100px) {
+    margin-top: 50px;
+}
+
 `
 
 export const Heading = styled.h1 `
