@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Link, Link as LinkR } from 'react-router-dom'
+import { Link} from 'react-router-dom'
 
 export const InfoContainer = styled.div `
     width: 50%;

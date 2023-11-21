@@ -1,5 +1,5 @@
 import React from 'react';
-import { ResultCard, ResultContainer, ResultsH1, ResultsIcon, ResultsP, ResultWrapper, ResultsH2, ResultsSign, ResultsProcent } from './ResultElements';
+import { ResultCard, ResultContainer, ResultsH1, ResultsIcon, ResultsP, ResultWrapper, ResultsH2, ResultsProcent } from './ResultElements';
 
 
 const ResultPage = ({ title, subtitle, content, logo, alt, sign }) => {

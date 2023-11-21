@@ -1,4 +1,4 @@
-import React, { PureComponent } from "react"
+import React from "react"
 import {HeroBg, HeroContainer, HeroContent, HeroH1, HeroH2, HeroP, ImageBg } from "./HeroElements"
 
 

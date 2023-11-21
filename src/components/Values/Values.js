@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import {ValuesCard, ValuesContainer, ValuesH1, ValuesH2, ValuesIcon, ValuesP, ValuesWrapper, CardLink} from "./ValuesElements"
 import Aries from '../../images/signs/aries.svg'
 import Taurus from '../../images/signs/taurus.svg'
@@ -12,9 +12,6 @@ import Sag from '../../images/signs/sagittarius.svg'
 import Capricorn from '../../images/signs/capricorn.svg'
 import Aquarius from '../../images/signs/aquarius.svg'
 import Pisces from '../../images/signs/pisces.svg'
-import { ariesData, taurusData, geminiData, cancerData, leoData, virgoData, libraData, scorpioData, sagData, capricornData, aquaData, piscesData } from './Data'
-import ResultPage from '../Results/Result'
-import {Link} from 'react-router-dom'
 
 const Values = () => {
     return (

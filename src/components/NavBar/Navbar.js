@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {animateScroll as scroll} from 'react-scroll'
-import {Nav, NavContainer, NavLogo, NavLinks, NavItem, NavMenu, NavBtn, NavBtnLink, MobileIcon} from "./NavbarElements";
+import {Nav, NavContainer, NavLogo} from "./NavbarElements";
 import Logo from '../../images/SterWijzer.png'
 import { NavLink } from 'react-router-dom';
 

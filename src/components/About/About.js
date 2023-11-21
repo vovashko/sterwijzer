@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import Modal from 'react-modal';
+import React from 'react';
 import { Heading } from '../Description/DescriptionElements';
 import { AboutContainer, AboutWrapper, Content } from './AboutElements';
 
